@@ -1,22 +1,22 @@
 
-# 🛒 Simple Billing System in Python
+#  Simple Billing System in Python
 
 
 This is a beginner-friendly command-line billing system built using Python. It allows users to select items from a predefined product list, specify quantities, and view a final bill with total cost.
 
-## 📦 Features
+##  Features
 
 - Displays available products with prices  
 - Accepts user input for item selection and quantity  
 - Validates input and handles errors gracefully  
 - Calculates and displays a formatted final bill  
 
-## 🧠 Prerequisites
+## Prerequisites
 
 - Python 3.x installed  
 - Basic understanding of dictionaries and loops in Python  
 
-## 🚀 How It Works
+##code
 
 ```python
 # Product catalog with prices
@@ -62,7 +62,7 @@ for item, qty in cart.items():
 print(f"\nTotal Amount: ₹{total_price}")
 ```
 
-## 📌 Sample Output
+##  Sample Output
 
 ```
 Available products:
@@ -84,13 +84,13 @@ Rice       x 1   = ₹50
 Total Amount: ₹110
 ```
 
-## 🛠️ Customization Ideas
+## Customization Ideas
 
 - Add stock limits or inventory tracking  
 - Include discounts or tax calculations  
 - Save bills to a file or database  
 - Build a GUI using Tkinter or PyQt  
 
-## 📚 License
+##License
 
 This project is open-source and free to use for educational purposes.
